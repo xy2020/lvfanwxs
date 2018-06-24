@@ -1,0 +1,22 @@
+<view class="space-line"></view>
+<view class="space-line"></view>
+<view class="space-line"></view>
+
+
+<!--用户反馈-->
+<form bindsubmit="addDiary" bindreset="">
+<view class="container">
+    <view class='row text_box'>
+        <textarea class='text' name="feedback" placeholder="请输入您的反馈" />
+    </view>
+    <view class='row btn_box'>
+        <button formType="submit" class='submit' bindtap="showTopTips">提交反馈</button>
+    </view>
+
+</view>
+</form>
+
+<view class="space-line"></view>
+ <view class="page__ft">
+        <text>本小程序由xy开发</text>
+ </view>

@@ -1,0 +1,57 @@
+<!--pages/draft/draft.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">征文</view>
+        <view class="page__desc"></view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__h1">关于征文!</view>
+            <view class="weui-article__section">
+                <view class="weui-article__title"></view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">简介：</view>
+                    <view class="weui-article__p">
+                        下面就是绿帆文学社征文活动啦。
+                    </view>
+                     <view class="weui-article__p">
+                       面对全校征文，主题不限，内容不限。
+                    </view>
+                    <view class="weui-article__p">
+                       投稿方式可以交给你认识的绿帆成员，可以在本小程序进行投稿，也可以投递到高一十班旁边楼梯口的绿帆信箱处。
+                    </view>
+                    <view class="weui-article__p">
+优秀的稿件将会被选取成为下一期《绿帆》的内容。
+                    </view>
+                    <view class="weui-article__p">
+同时作者还能获得丰富奖品哦
+                    </view>
+                    <view class="weui-article__p">
+                      有灵感的同学赶紧动起来吧！ 
+                    </view>
+                    <!--
+                    <view class="weui-article__p">
+                       下面放出征文内容
+                    </view>
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../images/pic_article.png" mode="aspectFit" style="height: 180px" />
+                        <image class="weui-article__img" src="../images/pic_article.png" mode="aspectFit" style="height: 180px" />
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">序言</view>
+                    <view class="weui-article__p">
+                       世界翻涌着无边的喧嚣，在拥挤的人潮中，我们存活于这个蓝色星球上。
+在这里人性开出幼嫩的花骨，奇思幻想皆在我们灵光一现中诞生，我们亦奔跑在时光的长途里，像个长途旅人一般欣赏着每一次的花开花落，潮起潮退。
+我们倔强而敏感地存活在这里，笔墨肆意飞洒，我们于纸上写下自己对此的领悟。
+请在下面三个主题中选择一个进行你的创作。
+                    </view>-->
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+
+<view class="page__ft">
+        <text>本小程序由xy开发</text>
+</view>
