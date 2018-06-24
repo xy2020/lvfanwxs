@@ -1,0 +1,8 @@
+<!--pages/tips/tips.wxml-->
+<view>
+<view class = "image"><image style="width: 100%; height: 150px;" src = "../../images/shiyongshuoming.jpg"  mode = "scaleToFill" ></image></view>
+<view class = "daohang"><text>使用说明：</text></view>
+<view class = "text" ><text>1、请留下联系方式，若稿件被征用，绿帆文学社会回馈给您一定的礼物</text></view>
+<view class = "text"><text>2、投稿请署名</text></view>
+
+</view>

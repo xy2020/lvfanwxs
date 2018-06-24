@@ -1,0 +1,53 @@
+<!--pages/lvfanwxs/lvfanwxs.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">绿帆文学社介绍</view>
+    </view>
+    <view class="page__bd">
+
+    
+        <view class="weui-article">
+            <view class="weui-article__h1"></view>
+            <view class="weui-article__section">
+                <view class="weui-article__title"></view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3">文学社</view>
+                    <view class="weui-article__p">
+                         绿帆是负责出版校刊《绿帆》的林伟华中学的正式社团，小帆们在每年的9或10月份面向高一的学弟学妹们进行招新。
+                    </view>
+                    <view class="weui-article__p">
+                         绿帆由三个小组组成，下面将为大家对各小组进行详细的介绍
+                    </view>
+                    <!--
+                    <view class="weui-article__p">
+                        <image class="weui-article__img" src="../images/pic_article.png" mode="aspectFit" style="height: 180px" />
+                        <image class="weui-article__img" src="../images/pic_article.png" mode="aspectFit" style="height: 180px" />
+                    </view>
+                    -->
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3"> 宣传组：</view>
+                    <view class="weui-article__p">
+                        宣传组的工作就是在校进行对外宣传和负责社内活动的相关事宜。因为工作的缘故，宣传小帆们认识了很多人，并与他们建立起友好的关系。想成为宣传小帆的学弟学妹们，得要有一颗充满热情的心和一个具有较强沟通能力的大脑哦！
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3"> 审稿组：</view>
+                    <view class="weui-article__p">
+                        审稿组：审稿组的工作是对宣传组提供的稿件进行筛选、审核和校对。想成为审稿小帆的学弟学妹们，得具有一定的文学素质和一定的文字的鉴赏能力，以及一颗热情的心哦！
+                    </view>
+                </view>
+                <view class="weui-article__section">
+                    <view class="weui-article__h3"> 编辑组：</view>
+                    <view class="weui-article__p">
+                        编辑组：编辑组负责对已经通过审稿组审核的稿件在电脑上进行编辑排版和对版面进行美化加工。想成为编辑小帆的学弟学妹们，得要有一颗热情的心和熟悉电脑操作哦！（其实能吃苦耐劳就行啦，零基础也可以的哦！）
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+
+<view class="page__ft">
+        <text>本小程序由xy开发</text>
+</view>

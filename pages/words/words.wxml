@@ -1,0 +1,113 @@
+<!--/*
+*/-->
+<!--index.wxml
+<form bindsubmit="onSubmit" bindreset="">
+<view class="container">
+    <view class='title'><input name="title" placeholder-class="placeholder" placeholder="输入标题" value="{{item.value.title}}" /></view>
+    <view class='input_author'><input name="author" placeholder-class="placeholder" placeholder="署名" value="{{item.value.author}}" /></view>
+    <view class='row'>
+        <textarea maxlength = "-1" class='text' placeholder-class="placeholder"  name="content" focus="{{focus}}" value="{{item.value.content}}" placeholder="输入文章" />
+    </view>
+    <view class='bottom'>
+        <button formType="submit" class='btn success'>投稿</button>
+    </view>
+</view>
+</form>
+
+<form bindsubmit="addDiary" report-submit="true">
+      <view class="weui-dialog__bd">
+        <view class="weui-cells__title">标题</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd">
+              <input class="weui-input" name="title" placeholder="请输入标题" />
+            </view>
+          </view>
+        </view>
+        <view class="weui-cells__title">日记内容</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell">
+            <view class="weui-cell__bd">
+              <textarea class="weui-textarea" name="content" placeholder="请输入日记内容" style="height: 3.3em" />
+              <view class="weui-textarea-counter">0/200</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="weui-dialog__ft">
+        <view class="weui-dialog__btn weui-dialog__btn_default" bindtap="noneWindows">取消</view>
+        <button loading="{{loading}}" class="weui-dialog__btn weui-dialog__btn_primary" formType="submit">提交</button>
+      </view>
+    </form>
+
+    -->
+
+<view class="page__hd">
+        <view class="page__title">文字投稿</view>
+        <view class="page__desc">请填写完整信息</view>
+</view>
+
+
+
+
+<form bindsubmit="addDiary" bindreset="">
+
+            <view class="weui-cells__title">标题</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__bd">
+                    <input  name="title" class="weui-input" placeholder="请输入文章标题" />
+                </view>
+            </view>
+        </view>
+
+        <view class="weui-cells__title">文章</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                    <textarea name="content"  maxlength = "-1" class="weui-textarea" placeholder="请输入完整文章" style="height: 8.7em" />
+                </view>
+            </view>
+
+        </view>
+<view class="weui-cells__title">信息</view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label"  >署名</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input name="author" class="weui-input" placeholder="请输入作者名称"/>
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">联系方式</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input name="contact" class="weui-input" placeholder="请输入电话/微信/或你所在的班级"/>
+                </view>
+            </view>
+            
+            </view>
+<!--/*
+
+<view class="container">
+    <view class='title'><input name="title" placeholder-class="placeholder" placeholder="输入标题"/></view>
+    <view class='input_author'><input name="author" placeholder-class="placeholder" placeholder="署名" /></view>
+    <view class='row'>
+        <textarea maxlength = "-1" class='text' placeholder-class="placeholder"  name="content"   placeholder="输入文章" />
+    <view class='bottom'>
+        <button  loading="{{loading}}" formType="submit" class='btn success'>投稿</button>
+    </view>
+
+*/-->
+<view class="weui-btn-area">
+            <button loading="{{loading}}" formType="submit" class="weui-btn" type="primary" bindtap="showTopTips">投稿</button>
+        </view>
+    
+</form>
+<view class="space-line"></view>
+ <view class="page__ft">
+        <text>本小程序由xy开发</text>
+ </view>

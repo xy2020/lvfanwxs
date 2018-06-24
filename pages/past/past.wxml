@@ -1,0 +1,4 @@
+<!--pages/past/past.wxml-->
+<modal title="敬请期待" confirm-text="确定" bindconfirm="confirm" no-cancel="true">
+    本页面正在开发中，敬请期待......
+</modal>

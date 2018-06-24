@@ -1,0 +1,41 @@
+
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">绿帆文学社</view>
+        <view class="page__desc">绿帆文学社是汕尾市林伟华中学的社团，负责出版校刊《绿帆》。</view>
+        <view class="page__desc">下面为大家送上绿帆的社歌(*^▽^*)！！！</view>
+    </view>
+        <view class="page-body">
+    <view class="page-section page-section-gap" style="text-align: center;">
+      <audio style="text-align: left" src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" action="{{audioAction}}" controls></audio>
+    </view>
+  </view>
+    <view class="page__bd page__bd_spacing">
+        <view class="kind-list">
+            <block wx:for="{{list}}" wx:key="id">
+                <view class="kind-list__item">
+                    <view id="{{item.id}}" class="weui-flex kind-list__item-hd {{item.open ? 'kind-list__item-hd_show' : ''}}" bindtap="kindToggle">
+                        <view class="weui-flex__item">{{item.name}}</view>
+                        <image class="kind-list__img" src="images/icon_nav_{{item.id}}.png"></image>
+                    </view>
+                    <view class="kind-list__item-bd {{item.open ? 'kind-list__item-bd_show' : ''}}">
+                        <view class="weui-cells {{item.open ? 'weui-cells_show' : ''}}">
+                            <block wx:for="{{item.pages}}" wx:for-item="data" wx:key="*this">
+                                <navigator url="{{data.page}}/{{data.page}}" class="weui-cell weui-cell_access">
+                                    <view class="weui-cell__bd" >{{data.name}}</view>
+                                    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+                                </navigator>
+                            </block>
+                        </view>
+                    </view>
+                </view>
+            </block>
+        </view>
+    </view>
+
+
+
+<view class="page__ft">
+        <text>本小程序由xy开发</text>
+    </view>
+</view>

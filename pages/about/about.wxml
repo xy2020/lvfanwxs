@@ -1,0 +1,46 @@
+<!--pages/about/about.wxml-->
+<view>
+<view class = "image"><image style="width: 100%; height: 150px;" src = "../../images/about.jpg"  mode = "scaleToFill" ></image></view>
+<view class = "daohang"><text>简介</text></view>
+<view class = "text" ><text>微信小程序是一种全新的连接用户与服务的方式，它可以在微信内被便捷地获取和传播，同时具有出色的使用体验。本小程序集成了图片投稿，文字投稿功能，未来还会继续开发新功能，敬请期待！！！</text></view>
+<view class = "text"><text>小程序正式版上线了，大家在使用过程中如果有bug，或者对页面有任何不满意，欢迎提交反馈！也可以在公众号后台跟小帆偷偷的说哦！</text></view>
+<view class="space-line"></view>
+
+
+
+<view class = "daohang"><text>更新日志</text></view>
+<view class = "text" ><text>v0.1.0公测版（20180601）</text>
+</view>
+<view class = "text" ><text>项目发布</text>
+</view>
+<view class="space-line"></view>
+
+<view class = "text" ><text>v0.2.0（20180618）</text>
+</view>
+<view class = "text" ><text>1、界面更新，采用weui，提高用户视觉体验</text></view>
+<view class = "text" ><text>2、新增：“绿帆文学社”栏目，介绍绿帆文学社；“征文”栏目。</text></view>
+<view class="space-line"></view>
+
+<view class = "text" ><text>v0.2.1（20180625）</text>
+</view>
+<view class = "text" ><text>1、修复图片投稿不会跳转回首页BUG。</text></view>
+<view class = "text" ><text>2、修改文案。</text></view>
+<view class = "text" ><text>3、首页增加社歌。</text></view>
+<view class = "text" ><text>4、预留：“招新”栏目；“往期绿帆”栏目。</text></view>
+
+<view class="space-line"></view>
+
+
+<view class = "daohang"><text>关于开发者</text></view>
+<view class = "text" ><text>xy</text>
+</view>
+<view class="space-line"></view>
+
+
+
+
+<view class = "daohang"><text>致谢</text></view>
+<view class = "text" ><text>   Bomb  HotApp Iconfont weui</text></view>
+</view>
+<view class="space-line"></view>
+
